@@ -1,3 +1,8 @@
+#include <math.h>
+#ifdef NAN
+/* NAN is supported */
+#endif
+
 struct Stats 
 {
 	float average;
