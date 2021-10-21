@@ -7,7 +7,7 @@ Stats compute_statistics(const float* numberset, int setlength) {
     s.max = numberset[0];
 	float total = 0.0;
 	
-	for (int i=0;i<setlength;I++)
+	for (int i=0;i<setlength;i++)
 	{
 	total+=	numberset[i] ;
 	if (s.min > numberset[i])
@@ -36,8 +36,8 @@ void check_and_alert(float maxThreshold,alerter_funcptr alerters, Stats computed
 {
 	if(computedStats.max > maxThreshold)
 	{
-		*alerters[0]();
-		*alerters[1]();
+		emailAlerter();
+		ledAlerter();
 	}
 	
 }
