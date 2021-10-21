@@ -46,7 +46,7 @@ if ((setlength == 0 ) || (numberset == 0))
    s.average = NAN;
     s.min = NAN;
     s.max = NAN;
-				
+		return s;		
 	}
 	
 }
