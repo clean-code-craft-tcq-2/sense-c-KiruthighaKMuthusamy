@@ -65,7 +65,7 @@ void check_and_alert(float maxThreshold,alerter_funcptr alerters, Stats computed
 	if(computedStats.max > maxThreshold)
 	{
 		alerters();
-			
+		(*alerters+1)();	
 	}
 	
 }
