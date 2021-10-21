@@ -26,10 +26,11 @@ Stats compute_statistics(const float* numberset, int setlength) {
 	//Testcase2:
 	if ((setlength == 0 )|| (total == 0.0))
 	{
+		printf("ashok");
     s.average = NAN;
     s.min = NAN;
     s.max = NAN;
-		printf("Kirutghigha");
+		printf("Naveen");
 		printf("%d",s.average);
 	}
 else
