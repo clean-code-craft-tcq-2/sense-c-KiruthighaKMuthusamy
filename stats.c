@@ -42,7 +42,7 @@ return s;}
 Stats compute_statistics(const int numberset, int setlength) {
 if ((setlength == 0 ) || (numberset == 0))
 	{
-		
+		Stats s;
    s.average = NAN;
     s.min = NAN;
     s.max = NAN;
