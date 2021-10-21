@@ -36,8 +36,9 @@ void check_and_alert(float maxThreshold,alerter_funcptr alerters, Stats computed
 {
 	if(computedStats.max > maxThreshold)
 	{
-		emailAlerter();
-		ledAlerter();
+		alerters;
+		alerters[0];
+		*alerters();
 	}
 	
 }
