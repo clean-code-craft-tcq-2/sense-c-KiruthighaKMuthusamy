@@ -1,5 +1,5 @@
 #include "stats.h"
-#include "stdio.h"
+
 Stats compute_statistics(const float* numberset, int setlength) {
 	Stats s;
 	s.average = 0;
@@ -37,8 +37,7 @@ void check_and_alert(float maxThreshold,alerter_funcptr alerters, Stats computed
 	if(computedStats.max > maxThreshold)
 	{
 		alerters();
-		printf("%d",alerters[0]);
-		
+			
 	}
 	
 }
