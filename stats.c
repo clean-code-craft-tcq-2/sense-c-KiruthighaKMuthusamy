@@ -1,5 +1,7 @@
 #include "stats.h"
 
+int emailAlertCallCount = 0;
+int ledAlertCallCount = 0;
 Stats compute_statistics(const float* numberset, int setlength) {
 	Stats s;
 	s.average = 0;
