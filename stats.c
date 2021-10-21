@@ -34,6 +34,7 @@ Stats compute_statistics(const float* numberset, int setlength) {
 	}
 else
 {
+	printf("Kirutghigha");
 	s.average = total / setlength;
 }
 return s;}
