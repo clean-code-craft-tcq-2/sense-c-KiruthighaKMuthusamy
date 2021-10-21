@@ -1,6 +1,8 @@
 #include "stats.h"
 #include "count.h"
 
+extern int emailAlertCallCount;
+extern int ledAlertCallCount;
 
 void emailAlerter()
 {	
