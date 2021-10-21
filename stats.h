@@ -8,9 +8,9 @@ struct Stats
 	float average;
     float min ;
     float max;
-}s;
+};
 
-Stats compute_statistics(const float* numberset, int setlength);
+extern  Stats compute_statistics(const float* numberset, int setlength);
 
 typedef void (*alerter_funcptr)();
 extern void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stats computedStats);
