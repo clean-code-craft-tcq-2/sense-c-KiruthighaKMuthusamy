@@ -26,19 +26,30 @@ Stats compute_statistics(const float* numberset, int setlength) {
 	//Testcase2:
 	if ((setlength == 0 )|| (total == 0.0))
 	{
-		printf("ashok");
-//    s.average = NAN;
-//     s.min = NAN;
-//     s.max = NAN;
-		printf("Naveen");
+		
+   s.average = NAN;
+	s.min = NAN;
+  s.max = NAN;
+
 		
 	}
 else
 {
-	printf("Kirutghigha");
 	s.average = total / setlength;
 }
 return s;}
+
+Stats compute_statistics(const int numberset, int setlength) {
+if ((setlength == 0 ) || (numberset == 0))
+	{
+		
+   s.average = NAN;
+    s.min = NAN;
+    s.max = NAN;
+				
+	}
+	
+}
 
 void emailAlerter()
 {	
@@ -58,4 +69,5 @@ void check_and_alert(float maxThreshold,alerter_funcptr alerters, Stats computed
 	}
 	
 }
+
 
