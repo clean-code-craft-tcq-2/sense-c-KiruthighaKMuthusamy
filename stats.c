@@ -1,6 +1,5 @@
 
 #include<stdio.h>
-#include<conio.h>
 #include "stats.h"
 
 int emailAlertCallCount = 0;
