@@ -21,8 +21,8 @@ Stats compute_statistics(const float* numberset, int setlength)
 		if (s.max < numberset[i])
 		{
 			s.max = numberset[i];
-	}
-		
+		}
+	}	
 	//Testcase:"average is NaN for empty array"
 	if ((setlength == 0 ))
 	{
