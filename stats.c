@@ -50,8 +50,8 @@ Stats compute_statistics(const int numberset, int setlength)
 		s.average = NAN;
 		s.min = NAN;
 		s.max = NAN;
-		return s;		
+				
 	}
-	
+	return s;
 }
 
