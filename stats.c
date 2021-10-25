@@ -27,9 +27,9 @@ Stats compute_statistics(const float* numberset, int setlength)
 	if ((setlength == 0 ))
 	{
 		
-       s.average = NAN;
-	   s.min = NAN;
-       s.max = NAN;
+       	  s.average = NAN;
+      	  s.min = NAN;
+      	  s.max = NAN;
 		
 	}
 	else
@@ -43,10 +43,9 @@ return s;
 //Testcase:"average is NaN for empty array"
 Stats compute_statistics(const int numberset, int setlength)
  {
-	 
+	Stats s;
 	if ((setlength == 0 ) || (numberset == 0))
 	{
-		Stats s;
 		s.average = NAN;
 		s.min = NAN;
 		s.max = NAN;
